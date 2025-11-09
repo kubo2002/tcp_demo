@@ -49,7 +49,7 @@ int main() {
 	
 	//recieves message from client
 	char buffer[BUFFER_SIZE];
-	recieve_message(client_file_descriptor, buffer);
+	receive_message(client_file_descriptor, buffer);
 	printf("From client: %s\n", buffer);
 	
 	// sends instant reply to client
